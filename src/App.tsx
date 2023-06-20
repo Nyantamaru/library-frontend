@@ -4,6 +4,8 @@ import Navbar from './layouts/NavbarAndFooter/Navbar';
 import ExploreTopBooks from './layouts/HomePage/ExploreTopBooks';
 import Carousel from './layouts/HomePage/Carousel';
 import Heros from './layouts/HomePage/Heros';
+import LibraryServices from './layouts/HomePage/LibraryServices';
+import Footer from './layouts/NavbarAndFooter/Footer';
 
 const App = () => {
   return (
@@ -12,10 +14,12 @@ const App = () => {
       <ExploreTopBooks />
       <Carousel />
       <Heros />
+      <LibraryServices />
+      <Footer />
     </Fragment>
   );
 };
 
 export default App;
 
-//goto: 9 return book
+//goto: 12 library service component
