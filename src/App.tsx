@@ -1,20 +1,14 @@
 import { Fragment } from 'react';
 import './App.css';
 import Navbar from './layouts/NavbarAndFooter/Navbar';
-import ExploreTopBooks from './layouts/HomePage/ExploreTopBooks';
-import Carousel from './layouts/HomePage/Carousel';
-import Heros from './layouts/HomePage/Heros';
-import LibraryServices from './layouts/HomePage/LibraryServices';
 import Footer from './layouts/NavbarAndFooter/Footer';
+import HomePage from './layouts/HomePage/HomePage';
 
 const App = () => {
   return (
     <Fragment>
       <Navbar />
-      <ExploreTopBooks />
-      <Carousel />
-      <Heros />
-      <LibraryServices />
+      <HomePage />
       <Footer />
     </Fragment>
   );
@@ -22,4 +16,4 @@ const App = () => {
 
 export default App;
 
-//goto: 12 library service component
+//goto: 11 sprinb boot backend
